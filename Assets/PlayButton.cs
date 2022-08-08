@@ -2,21 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayButton : MonoBehaviour    
+public class PlayButton : MonoBehaviour
 {
     bool _play;
     bool _continue;
     bool _load;
     bool _newGame;
-    // Start is called before the first frame update
-    void Start()
+
+    public void OnMouseUpAsButton()
     {
-        
+        if (Input.GetKey))
+
+        {
+            
+        Debug.Log(" pressing play");
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
